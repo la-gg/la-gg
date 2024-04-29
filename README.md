@@ -96,7 +96,7 @@ This project is licensed under the Creative Commons Attribution 1.0 Universal Li
 
 ### Contact
 
-- **LinkedIn:** [https://www.linkedin.com/in/alice-lele/]
+- [**LinkedIn**](https://www.linkedin.com/in/alice-lele/)
 
 Feel free to reach out if you have any questions, or feedback!
 
