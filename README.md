@@ -23,7 +23,7 @@ I came across this data from the 'Os Invasores' report on farms overlapping desi
 
 This project is organized as follows:
 
-- `Tabela-Os_Invasores.xlsx`: Excel file documenting the landowners in Brazil whose farms overlap Indigenous land. **See more:**[**‘Os Invasores’ Report**](https://deolhonosruralistas.com.br/2023/05/11/report-invaders-reveals-companies-and-sectors-behind-overlaps-in-indigenous-lands-in-brazil/)
+- `Tabela-Os_Invasores.xlsx`: Excel file documenting the landowners in Brazil whose farms overlap Indigenous land. **See more: **[**‘Os Invasores’ Report**](https://deolhonosruralistas.com.br/2023/05/11/report-invaders-reveals-companies-and-sectors-behind-overlaps-in-indigenous-lands-in-brazil/)
   
 - `Crosswalk.csv`: CSV file created using `Crosswalk.py`, which contains the translated column names of the Excel sheet.
   
