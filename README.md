@@ -40,10 +40,7 @@ This project is organized as follows:
 - `LICENSE`: The license file containing the terms and conditions for using the project.
 
 - `README.md`: The README file providing an overview of the project, its structure, and instructions for usage.
-  
-- **LICENSE**: The license file.
 
-- **README.md**: The README file providing an overview of the project, its structure, and instructions for usage.
 
 ### Usage
 
