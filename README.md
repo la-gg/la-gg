@@ -17,13 +17,13 @@ Welcome to my code sample repository! This repository contains a very brief samp
 
 ### Introduction
 
-I came across this data from the 'Os Invasores' report on farms overlapping designated Indigenous lands in Brazil during my research on environmental defenders as a VSFS intern with the Bureau of Oceans and International Environmental and Scientific Affairs in the Department of State. I found the precision and clarity of the data interesting, so in this code sample I create two visualizations to summarize key facets of the information that de Olho nos Ruralistas gathered. I created histograms of invasions at each stage of legal demarcation and for each Indigenous group with more than ten invasions (otherwise the chart was illegible). There were of course some limitations in using this data as a code sample, the first of which was that the file is in Portuguese. Translating and converting the measurements in the file from Portuguese to English and hectares to square miles limited my analytical ability in a code sample, but hopefully made it easier for others to understand and explore. If I were to continue with this project I would first order the demarcation visualization by phase of demarcation, create more visualizations to analyze what type of farms were most prevalent amongst invasions, what states see the most invasions, etc., finally summarizing my findings. If you're interested in reading de Olhos nos Ruralistas report, which does an excellent job in summarizing, breaking apart, and contextualizing the data, you can find it here (this page contains links to both the excel file of the data and the pdf of the report): [Os Invasores Report](https://deolhonosruralistas.com.br/2023/04/19/relatorio-os-invasores-revela-empresas-e-setores-por-tras-de-sobreposicoes-em-terras-indigenas/)
+I came across this data from the 'Os Invasores' report on farms overlapping designated Indigenous lands in Brazil during my research on environmental defenders as a VSFS intern with the Bureau of Oceans and International Environmental and Scientific Affairs in the Department of State. I found the precision and clarity of the data interesting, so in this code sample I create two visualizations to summarize key facets of the information that de Olho nos Ruralistas gathered. I created histograms of invasions at each stage of legal demarcation and for each Indigenous group with more than ten invasions (otherwise the chart was illegible). There were of course some limitations in using this data as a code sample, the first of which was that the file is in Portuguese. Translating and converting the measurements in the file from Portuguese to English and hectares to square miles limited my analytical ability in a code sample, but hopefully made it easier for others to understand and explore. If I were to continue with this project I would first order the demarcation visualization by phase of demarcation, create more visualizations to analyze what type of farms were most prevalent amongst invasions, what states see the most invasions, etc., finally summarizing my findings. If you're interested in reading de Olhos nos Ruralistas report, which does an excellent job in summarizing, breaking apart, and contextualizing the data, you can find it here (this page contains links to both the excel file of the data and the pdf of the report): [Os Invasores Report](https://deolhonosruralistas.com.br/2023/04/19/relatorio-os-invasores-revela-empresas-e-setores-por-tras-de-sobreposicoes-em-terras-indigenas/).
 
 ### Project Structure
 
 This project is organized as follows:
 
-- `Tabela-Os_Invasores.xlsx`: Excel file documenting the landowners in Brazil whose farms overlap Indigenous land. **See more: **[**‘Os Invasores’ Report**](https://deolhonosruralistas.com.br/2023/05/11/report-invaders-reveals-companies-and-sectors-behind-overlaps-in-indigenous-lands-in-brazil/)
+- `Tabela-Os_Invasores.xlsx`: Excel file documenting the landowners in Brazil whose farms overlap Indigenous land. **For more info see:** [**‘Os Invasores’ Report**](https://deolhonosruralistas.com.br/2023/05/11/report-invaders-reveals-companies-and-sectors-behind-overlaps-in-indigenous-lands-in-brazil/)
   
 - `Crosswalk.csv`: CSV file created using `Crosswalk.py`, which contains the translated column names of the Excel sheet.
   
@@ -64,13 +64,11 @@ To run the code sample, follow these steps:
 
 4. You can then explore the generated histograms to visualize patterns in the data.
 
-Note: Make sure to execute the scripts in the specified order for proper functioning.
-
 ### Features
 
 This code sample project offers the following features:
 
-1. **Data Translation**: The `Crosswalk.py` script translates the column names of the `Tabela-Os_Invasores.xlsx` Excel file from Portuguese to English, providing clarity and consistency in data interpretation.
+1. **Data Translation**: The `Crosswalk.py` script translates the column names of the `Tabela-Os_Invasores.xlsx` Excel file from Portuguese (with help from DeepL) to English, providing clarity and consistency in data interpretation.
 
 2. **Data Cleaning**: The `Cleaning.py` script cleans and preprocesses the data from `Tabela-Os_Invasores.xlsx`, ensuring data quality and usability for analysis.
 
