@@ -82,7 +82,7 @@ These features collectively demonstrate the effectiveness of the code sample in 
 
 ### Technologies Used
 
-This code sample uses python, and the pandas, Matplotlib, and Seaborn libraries.
+This code sample uses Python, and the Pandas, Matplotlib and Seaborn libraries.
 
 
 ### License
