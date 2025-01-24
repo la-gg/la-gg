@@ -1,5 +1,5 @@
 # Hello I'm Alice Lele! 
-_Recent Graduate of the Master's of Public Policy degree at the [Harris School of Public Policy](https://harris.uchicago.edu/)_
+_Recent graduate of the Master's of Public Policy program at the [Harris School of Public Policy](https://harris.uchicago.edu/)_
 
 ## Python Code Sample
 
